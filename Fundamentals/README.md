@@ -32,18 +32,18 @@ npx expo start
 
 ## 2. Project structure
 
-project-root/
-│── app/
-│── assets/
-│── components/
-│── constants/
-│── hooks/
-│── scripts/
-│── node_modules/
-│── app.json
-│── package.json
-│── tsconfig.json
-│── .gitignore
+* project-root/
+* │── app/
+* │── assets/
+* │── components/
+* │── constants/
+* │── hooks/
+* │── scripts/
+* │── node_modules/
+* │── app.json
+* │── package.json
+* │── tsconfig.json
+* │── .gitignore
 
 
 ###  app/
@@ -57,7 +57,7 @@ app/index.tsx → Home Screen
 app/profile.tsx → Profile Screen
 
 
-### 🔹 assets/
+###  assets/
 Centralized storage for **static resources**, including:
 - Images
 - Custom fonts
@@ -66,7 +66,7 @@ Centralized storage for **static resources**, including:
 Keeping assets here helps maintain a clean and organized project.
 
 
-### 🔹 components/
+###  components/
 Contains **reusable UI components** such as:
 - Custom Buttons
 - Input fields
@@ -76,7 +76,7 @@ Contains **reusable UI components** such as:
 This follows the **DRY (Don't Repeat Yourself)** principle and improves code reusability.
 
 
-### 🔹 constants/
+###  constants/
 Stores **global constants** used across the app:
 - Theme colors
 - API endpoints
@@ -86,7 +86,7 @@ Stores **global constants** used across the app:
 This ensures consistency and makes updates easier.
 
 
-### 🔹 hooks/
+###  hooks/
 Houses **custom React hooks** that manage logic outside UI components.
 
 Examples:
@@ -96,21 +96,21 @@ Examples:
 This improves code readability and separation of concerns.
 
 
-### 🔹 scripts/
+###  scripts/
 Includes **automation and utility scripts** used for:
 - Project maintenance
 - Deployment tasks
 - Build-related operations
 
 
-### 🔹 node_modules/
+###  node_modules/
 Stores all **third-party libraries and dependencies** installed via npm or yarn.  
-⚠️ This folder is auto-generated and should not be modified manually.
+ This folder is auto-generated and should not be modified manually.
 
 
-## ⚙️ Configuration Files
+##  Configuration Files
 
-### 🔸 app.json
+###  app.json
 Expo configuration file that defines:
 - App name
 - App version
@@ -119,21 +119,21 @@ Expo configuration file that defines:
 - Platform-specific settings
 
 
-### 🔸 package.json
+###  package.json
 Tracks:
 - Installed dependencies
 - Development dependencies
 - Project scripts (start, build, etc.)
 
 
-### 🔸 tsconfig.json
+###  tsconfig.json
 Configures **TypeScript compiler options** to:
 - Improve code quality
 - Ensure type safety
 - Reduce runtime errors
 
 
-### 🔸 .gitignore
+###  .gitignore
 Specifies files and folders that Git should ignore, such as:
 - `node_modules/`
 - Build files
